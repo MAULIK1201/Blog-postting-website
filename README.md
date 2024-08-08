@@ -10,3 +10,13 @@ Explore and contribute to the development of this dynamic blogging platform!
 
 Here are some images of websites
 ![Alt text](homepg.png)
+
+![Alt text](homepg2.png)
+
+![Alt text](profile.png)
+
+![Alt text](register.png)
+
+![Alt text](singlepost.png)
+
+![Alt text](writing post.png)
