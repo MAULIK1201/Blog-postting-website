@@ -21,5 +21,5 @@ Here are some images of websites
 
 ![Alt text](writing%20post.png)
 
-![Alt text](writing%20a%20post.png)
+![Alt text](writng%20a%20post.png)
 
