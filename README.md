@@ -8,3 +8,5 @@ Dynamic Blog Post Creation: Intuitive interface for creating, editing, and delet
 Author and Category Classification: Posts are organized by author and category, enhancing content discoverability and organization.
 Explore and contribute to the development of this dynamic blogging platform!
 
+Here are some images of websites
+![Alt text](homepg.png)
