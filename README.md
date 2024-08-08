@@ -19,4 +19,7 @@ Here are some images of websites
 
 ![Alt text](singlepost.png)
 
-![Alt text](writing post.png)
+![Alt text](writing%20post.png)
+
+![Alt text](writing%20a%20post.png)
+
