@@ -9,7 +9,7 @@ export default function Sidebar() {
   useEffect(() => {
     const getCats = async () => {
       try {
-        const res = await axios.get("http://localhost:5000/api/categories");
+        const res = await axios.get("https://blog-postting-website.onrender.com/api/categories");
         setCats(res.data);
       } catch (error) {
         console.error("Error fetching categories:", error);

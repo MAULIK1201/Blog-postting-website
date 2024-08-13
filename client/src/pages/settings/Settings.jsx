@@ -13,7 +13,7 @@ export default function Settings() {
   const [error, setError] = useState("");
 
   const { user, dispatch } = useContext(Context);
-  // const PF = "http://localhost:5000/images/";
+  // const PF = "https://blog-postting-website.onrender.com/images/";
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -33,7 +33,7 @@ export default function Settings() {
       formData.append("file", file);
       updatedUser.profilePic = filename;
       try {
-        const res = await axios.post("http://localhost:5000/api/upload", formData);
+        const res = await axios.post("https://blog-postting-website.onrender.com/api/upload", formData);
         updatedUser.profilePic = res.data.filename;
       } catch (err) {
         console.log(err);
@@ -42,7 +42,7 @@ export default function Settings() {
     }
 
     try {
-      const res = await axios.put(`http://localhost:5000/api/users/${user._id}`, updatedUser);
+      const res = await axios.put(`https://blog-postting-website.onrender.com/api/users/${user._id}`, updatedUser);
       setSuccess(true);
       dispatch({ type: "UPDATE_SUCCESS", payload: res.data });
     } catch (err) {
