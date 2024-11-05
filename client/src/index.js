@@ -11,3 +11,4 @@ root.render(
     </ContextProvider>
   </React.StrictMode>
 );
+//mongodb+srv://maulikadhyaru:Maulik123@blogging.srdxrjh.mongodb.net/?retryWrites=true&w=majority&appName=Blogging

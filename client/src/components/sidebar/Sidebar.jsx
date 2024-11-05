@@ -12,11 +12,12 @@ export default function Sidebar() {
         const res = await axios.get("https://blog-postting-website.onrender.com/api/categories");
         setCats(res.data);
       } catch (error) {
-        console.error("Error fetching categories:", error);
+        console.error("Error fetching categories:", error.response ? error.response.data : error.message);
       }
     };
     getCats();
   }, []);
+  
 
   return (
     <div className='sidebar'>
